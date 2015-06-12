@@ -40,6 +40,9 @@ define(
                         .appendTo($("head"))
                         ;
                 }
+                else if (statStyle.indexOf("VO") ==! -1) {
+                    css = "assets/css/" + statStyle.toLowerCase() + ".css";
+                }
                 else {
                     css += "www.w3.org/StyleSheets/TR/W3C-" + statStyle;
                 }
