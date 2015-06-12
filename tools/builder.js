@@ -37,7 +37,9 @@ function build (options, cb) {
         // add header
         try {
             fs.writeFileSync(config.out
-                        ,   "/* ReSpec " + version +
+                        ,   "/* VO-ReSpec " + version +
+                            " - Alexander Salas, http://alexandersalas.name/ (@ajsb85) */\n" +
+                            "/* ReSpec 3.2.58" +
                             " - Robin Berjon, http://berjon.com/ (@robinberjon) */\n" +
                             "/* Documentation: http://w3.org/respec/. */\n" +
                             "/* See original source for licenses: https://github.com/darobin/respec. */\n" +
