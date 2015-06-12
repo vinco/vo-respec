@@ -1,0 +1,29 @@
+{
+    "name": "vo-respec",
+    "version": "0.1.0",
+    "description": "Specification Edition Support Tool.",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs",
+        "example": "examples",
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "node ./tests/headless.js"
+    },
+    "bin":  {
+        "respec2html":  "./tools/respec2html.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/vinco/vo-respec.git"
+    },
+    "author": "Robin Berjon",
+    "contributors": ["Alexander Salas"],
+    "devDependencies": {
+        "express":      "*"
+    ,   "requirejs":    "2.1.8"
+    ,   "prompt":       "0.2.12"
+    ,   "async":        "0.2.9"
+    }
+}

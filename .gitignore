@@ -1,0 +1,9 @@
+scratch
+.DS_Store
+*~
+builds/
+/node_modules
+.htaccess
+examples/touchevents.html
+bevy.json
+.idea
