@@ -7,3 +7,4 @@ builds/
 examples/touchevents.html
 bevy.json
 .idea
+assets/
